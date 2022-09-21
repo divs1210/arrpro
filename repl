@@ -1,0 +1,3 @@
+#! /bin/sh
+
+rlwrap node arrpro.js repl
