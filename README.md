@@ -66,6 +66,3 @@ $ rlwrap node arrpro.js repl
 > "a"
 => 10
 ```
-
-Note that on some machines, you might need to enter the `EOF` character (Ctrl + D) to evaluate the expression.
-

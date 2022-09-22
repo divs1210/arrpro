@@ -173,6 +173,14 @@ let replOrFile = cmdArgs[0],
         process.stdout.write("> ");
         return readLine();
     } : () => readFile(replOrFile);
+
+if (isREPL) {
+    console.log("===========");
+    console.log("arrpro REPL");
+    console.log("===========");
+    console.log("(you might need to press Ctrl+D after pressing ENTER)\n");
+}
+
 do {
     let json = read(),
         code = JSON.parse(json),
