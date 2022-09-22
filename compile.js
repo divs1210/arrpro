@@ -136,7 +136,7 @@ let file = cmdArgs[0],
     json = readFile(file),
     code = JSON.parse(json),
     compiledCode = compile(code),
-    preamble = readFile("preamble.js"),
+    preamble = readFile("resources/preamble.js"),
     finalCode = preamble + "\n" + compiledCode;
 
 

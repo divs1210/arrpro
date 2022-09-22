@@ -189,5 +189,5 @@ do {
         ret  = walk(code, env);
 
     if (isREPL)
-        console.log("=>", ret);
+        console.log("=>", ret, "\n");
 } while (isREPL);
