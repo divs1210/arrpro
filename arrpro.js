@@ -1,13 +1,3 @@
-// Builtins
-// ========
-//  - forms: do, def, fn, let, cond, str
-//  - keys:  null, true, false, cmd-args
-//  - fns:
-//    - types:   null?, number?, string?, array?
-//    - math:    =, <, >, +, -, *, /
-//    - arrays:  array, get, set!, size, slice, concat
-//    - misc:    apply, not, print, read-file, parse-json
-
 let fs = require('fs');
 let path = process.cwd();
 let cmdArgs = process.argv.slice(2);
