@@ -18,8 +18,5 @@
     "else",
     ["even?", ["-", "x", 1]]]]],
 
- ["let", ["a", 3,
-          "b", 4],
-  ["do",
-   ["print", ["even?", "a"]],
-   ["print", ["even?", "b"]]]]]
+ ["print", 5, ["even?", 5]],
+ ["print", 8, ["even?", 8]]]
