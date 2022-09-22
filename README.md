@@ -23,10 +23,10 @@ A simple programming language represented as JSON.
 
 This repo contains:
 
-1. An interpreter for arrpro in JS
-2. A compiler for arrpro in JS
-3. An interpreter for arrpro in arrpro
-4. arrpro code examples
+1. [An interpreter for arrpro in JS](arrpro.js)
+2. [A compiler for arrpro in JS](compile.js)
+3. [An interpreter for arrpro in arrpro](examples/arrpro.json)
+4. [arrpro code examples](examples/)
 
 ## How to use
 
