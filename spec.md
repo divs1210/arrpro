@@ -1,10 +1,15 @@
 # arrpro Language Specification
 
+## Vars
+
+`null`, `true`, `false`, `else`, `cmd-args`
+
+
 ## Special Forms
 
 - `["do", exp1, exp2, ... expN]`
 
-- `["def", "varName", value]`
+- `["def", "varName", exp]`
 
 - `["fn", ["arg1", "arg2", ... "argN"], returnExp]`
 
@@ -32,8 +37,3 @@
 ### Misc
 
 `apply`, `not`, `print`, `read-file`, `parse-json`
-
-
-## Vars
-
-`null`, `true`, `false`, `else`, `cmd-args`
