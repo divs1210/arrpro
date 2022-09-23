@@ -50,7 +50,8 @@ function jsfy(text) {
         .replaceAll(">", "__GT__")
         .replaceAll("?", "__QN__")
         .replaceAll("!", "__EX__")
-        .replaceAll("var", "__var__");
+        .replaceAll("var",  "__VAR__")
+        .replaceAll("else", "__ELSE__");
 }
 
 function compile(expr) {
@@ -108,9 +109,6 @@ function compile(expr) {
                 let remainingExpr = ["cond", ...remaining];
 
                 let cond = compile(condExpr);
-
-                if (cond == "else")
-                    cond = "true";
 
                 let then = compile(thenExpr);
                 let _else = compile(remainingExpr);

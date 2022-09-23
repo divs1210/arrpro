@@ -10,6 +10,7 @@ let __SUB__ = (a, b) => a - b;
 let __MUL__ = (a, b) => a * b;
 let __DIV__ = (a, b) => a / b;
 
+let __ELSE__ = true;
 let cmd__SUB__args = process.argv.slice(2);
 
 let array = (...args) => args;
